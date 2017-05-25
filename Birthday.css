@@ -1,0 +1,35 @@
+﻿.message-1{
+color:blue;
+background-color: #BFEFFF;
+padding: 10 px;
+}
+
+
+.message{
+color:red;
+padding: 50 px;
+}
+
+
+.vopros-message{
+color:blue;
+}
+
+.zalivka-message{
+background: #F0FFFF;
+}
+
+table {
+width:55%; 
+margin: auto; 
+font-size:20px; 
+border: 1px solid grey;
+}
+
+table,th, td {
+border-style:solid;
+border-color:black;
+border-width:1px;
+border-collapse:collapse;
+}
+

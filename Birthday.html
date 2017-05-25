@@ -1,0 +1,78 @@
+﻿<html> 
+	<head>
+	<meta chatset="UTF-8">
+		<title>Калькулятор возраста</title>	
+		<link rel="stylesheet" href="Birthday.css"/>
+		<script type = "text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="Birthday.js"></script>
+	</head>
+	<body>
+	<table>
+	<caption><p class="message-1">Пожалуйста, введите Вашу дату рождения</p></caption>
+		<FORM name="form1">
+			<tr>
+			<td>
+				<label>
+				День
+					<INPUT id="b-day" size=3>
+				</label>
+				<label>
+				Месяц
+					<INPUT id="b-month" size=3>
+				</label>
+				<label>
+				Год
+					<INPUT id="b-year" size=6>
+				</label>	
+			</td>
+			<td>
+				<input type="button" value="Вычислить возраст" onclick="getAgeFromBirthday()">
+			</td>
+			</tr>
+			<tr>
+				<TD colspan="2"><INPUT name="message" size=90 readonly="readonly" class="message"></TD>
+			</tr>
+			<tr>
+			<td colspan="2" >
+				<INPUT name=otvet size=90 value="Ваш возраст будет отображаться здесь" readonly="readonly">
+			</td>
+			</tr>
+			<tr>
+				<td  colspan="2"  class="zalivka-message"> <p class="vopros-message">Вы прожили:</p> </td>
+			</tr>
+			<tr>
+				<TD>В месяцах:</TD>
+				<TD colspan="2"><INPUT name="months" size=60 readonly="readonly"></TD>
+			</TR>
+			<TR>
+				<TD>В неделях:</TD>
+				<TD colspan="2"><INPUT name="weeks" size=60 readonly="readonly"></TD>
+			</TR>
+			<TR>
+				<TD>В днях:</TD>
+				<TD colspan="2"><INPUT name="answer" size=60 readonly="readonly"></TD>
+			</TR>
+			<TR>
+				<TD>В часах:</TD>
+				<TD colspan="2"><INPUT name="hours" size=60 readonly="readonly"></TD>
+			</TR>
+			<TR>
+				<TD>В минутах:</TD>
+				<TD colspan="2"><INPUT name="min" size=60 readonly="readonly"></TD>
+			</TR>
+			<TR>
+				<TD>В секундах:</TD>
+				<TD colspan="2"><INPUT name="sec" size=60 readonly="readonly"></TD>
+			</TR>
+			<TR>
+				<TD>В миллисекундах:</TD>
+				<TD colspan="2"><INPUT name="millisec" size=60 readonly="readonly"></TD>
+			</TR>
+			<TR>
+				<TD>Ваш следующий день рождения будет через:</TD>
+				<TD colspan="2"><INPUT name="bday" size=60 readonly="readonly"> </TD>
+			</TR>
+		</FORM>
+	</TABLE>
+	</body>
+</html>
